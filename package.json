@@ -1,6 +1,6 @@
 {
   "name": "@puge/opencv4nodejs",
-  "version": "5.6.2",
+  "version": "5.6.3",
   "description": "Asynchronous OpenCV 3.x nodejs bindings with JavaScript and TypeScript API.",
   "keywords": [
     "opencv",
@@ -45,7 +45,7 @@
     "nan": "^2.14.0",
     "native-node-utils": "^0.2.7",
     "npmlog": "^4.1.2",
-    "@puge/opencv-build": "^0.2.0"
+    "@puge/opencv-build": "^0.2.1"
   },
   "optionalDependencies": {
     "@types/node": ">6"
