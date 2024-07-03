@@ -1,6 +1,6 @@
 {
   "name": "@puge/opencv4nodejs",
-  "version": "5.6.1",
+  "version": "5.6.2",
   "description": "Asynchronous OpenCV 3.x nodejs bindings with JavaScript and TypeScript API.",
   "keywords": [
     "opencv",
