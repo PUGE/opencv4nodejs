@@ -1,6 +1,6 @@
 {
-  "name": "opencv4nodejs",
-  "version": "5.6.0",
+  "name": "@puge/opencv4nodejs",
+  "version": "5.6.1",
   "description": "Asynchronous OpenCV 3.x nodejs bindings with JavaScript and TypeScript API.",
   "keywords": [
     "opencv",
@@ -25,6 +25,10 @@
   "bugs": {
     "url": "https://github.com/justadudewhohacks/opencv4nodejs/issues"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "homepage": "https://github.com/justadudewhohacks/opencv4nodejs#readme",
   "main": "./lib/opencv4nodejs.js",
   "typings": "./lib/index.d.ts",
@@ -41,7 +45,7 @@
     "nan": "^2.14.0",
     "native-node-utils": "^0.2.7",
     "npmlog": "^4.1.2",
-    "opencv-build": "^0.1.9"
+    "@puge/opencv-build": "^0.2.0"
   },
   "optionalDependencies": {
     "@types/node": ">6"
